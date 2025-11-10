@@ -3,8 +3,22 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
 
+import { createBrowserRouter, Router, RouterProvider } from 'react-router'
+
+const router = createBrowserRouter([
+  {
+    element: <App/>,
+    children:[
+      {
+        path:"/",
+      element:  <h1>Error 404</h1>,
+    }
+    ]
+  }
+])
+
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </StrictMode>,
 )
