@@ -4,6 +4,7 @@ import './index.css'
 import App from './App.tsx'
 
 import { createBrowserRouter, RouterProvider } from 'react-router'
+import HomePage from './page/HomePage.tsx'
 
 const router = createBrowserRouter([
   {
@@ -11,6 +12,10 @@ const router = createBrowserRouter([
     children:[
       {
         path:"/",
+      element: <HomePage/>,
+    },
+      {
+        path:"*",
       element:  <h1>Error 404</h1>,
     }
     ]
