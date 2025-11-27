@@ -7,102 +7,102 @@ export type JeuxType ={
 export const jeux: JeuxType[] =[
     {
         id: 1,
-        name: "1"
+        name: "Banco"
     },
     {
         id: 2,
-        name: "2"
+        name: "Vegas"
     },
     {
         id: 3,
-        name: "3"
+        name: "Goal 1€"
     },
     {
         id: 4,
-        name: "4"
+        name: "Solitaire"
     },
     {
         id: 5,
-        name: "5"
+        name: "Fétiche"
     },
     {
         id: 6,
-        name: "6"
+        name: "Black Jack"
     },
     {
         id: 7,
-        name: "7"
+        name: "Vegas"
     },
     {
         id: 8,
-        name: "8"
+        name: "Banco"
     },
     {
         id: 9,
-        name: "9"
+        name: "Maxi Goal"
     },
     {
         id: 10,
-        name: "10"
+        name: "Fétiche"
     },
     {
         id: 11,
-        name: "11"
+        name: "Goal 1€"
     },
     {
         id: 12,
-        name: "12"
+        name: "Jackpot"
     },
     {
         id: 13,
-        name: "13"
+        name: "Mots Croisés"
     },
     {
         id: 14,
-        name: "14"
+        name: "Banco"
     },
     {
         id: 15,
-        name: "15"
+        name: "Astro"
     },
     {
         id: 16,
-        name: "16"
+        name: "Goal 1€"
     },
     {
         id: 17,
-        name: "17"
+        name: "Goal 1€"
     },
     {
         id: 18,
-        name: "18"
+        name: "Solitaire"
     },
     {
         id: 19,
-        name: "19"
+        name: "Goal 1€"
     },
     {
         id: 20,
-        name: "20"
+        name: "Black Jack"
     },
     {
         id: 21,
-        name: "21"
+        name: "Cash"
     },
     {
         id: 22,
-        name: "22"
+        name: "Goal 1€"
     },
     {
         id: 23,
-        name: "23"
+        name: "Astro"
     },
     {
         id: 24,
-        name: "24"
+        name: "Mots Croisés"
     },
     {
         id: 25,
-        name: "25"
+        name: "Goal 1€"
     },
 ]
